@@ -1,4 +1,4 @@
-package chap02.section1
+package chap02.section2
 
 fun main() {
     val exp00 = 4321 //int로 추론.
@@ -41,5 +41,10 @@ fun main() {
     효율적인 프로그래밍을 위해 메모리 공간을 낭비하지 않도록,
     사용될 수가 크지도 않은 것을 위해서 Int나 Long을 사용하지말고 Short형을 사용하는 등 데이터 크기에 맞는 자료형을 골라 사용하도록하자.
      */
+
+    //논리 자료형
+    val isOpen = true
+    val isUploaded : Boolean
+
 
 }
