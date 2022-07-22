@@ -47,4 +47,20 @@ fun main(){
     println(test)
     println("I love \"Kotlin\"")
 
+    //다중 문자열 출력 . """로 감싸서 출력한다.
+    val num1 = 10
+    val formattedString = """
+        var num2 = 1
+        var a = "Kotlin"
+        println(num1 + num2)
+    """
+    println(formattedString)
+
+    //자료형에 별명 붙여쓰기
+    //typealias라는 키워드를 붙여서 사용하면 된다. => 함수 밖에 선언한다.
+    val user : Username = "TaeYeon"
+
 }
+
+typealias Username = String
+
