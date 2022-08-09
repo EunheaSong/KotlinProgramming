@@ -1,11 +1,11 @@
 package chap03.section3
 
 /*
-고차함수와 람다식
+고차함수
  */
 fun main(){
-    val res1 = sum(3,2)
-    val res2 = mul(sum(3,2),3)
+    val res1 = sum(3,2) //일반적인 인자 사용
+    val res2 = mul(sum(3,2),3) // 인자에 함수를 사용
 
     println("res1 : $res1 res2 : $res2")
 

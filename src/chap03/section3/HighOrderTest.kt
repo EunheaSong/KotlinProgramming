@@ -1,5 +1,8 @@
 package chap03.section3
 
+/*
+고차함수와 람다식 - 변수에 람다식 사용하기
+ */
 fun main (){
     var result: Int
     val multi = { x: Int, y: Int -> x * y } //일반 변수에 람다식 할당
